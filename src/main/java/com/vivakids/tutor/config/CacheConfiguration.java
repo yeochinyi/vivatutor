@@ -41,6 +41,18 @@ public class CacheConfiguration {
             cm.createCache(com.vivakids.tutor.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(com.vivakids.tutor.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.vivakids.tutor.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(com.vivakids.tutor.domain.Region.class.getName(), jcacheConfiguration);
+            cm.createCache(com.vivakids.tutor.domain.Country.class.getName(), jcacheConfiguration);
+            cm.createCache(com.vivakids.tutor.domain.Location.class.getName(), jcacheConfiguration);
+            cm.createCache(com.vivakids.tutor.domain.Department.class.getName(), jcacheConfiguration);
+            cm.createCache(com.vivakids.tutor.domain.Department.class.getName() + ".employees", jcacheConfiguration);
+            cm.createCache(com.vivakids.tutor.domain.Task.class.getName(), jcacheConfiguration);
+            cm.createCache(com.vivakids.tutor.domain.Task.class.getName() + ".jobs", jcacheConfiguration);
+            cm.createCache(com.vivakids.tutor.domain.Employee.class.getName(), jcacheConfiguration);
+            cm.createCache(com.vivakids.tutor.domain.Employee.class.getName() + ".jobs", jcacheConfiguration);
+            cm.createCache(com.vivakids.tutor.domain.Job.class.getName(), jcacheConfiguration);
+            cm.createCache(com.vivakids.tutor.domain.Job.class.getName() + ".tasks", jcacheConfiguration);
+            cm.createCache(com.vivakids.tutor.domain.JobHistory.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
