@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "vivatutor",
+    "packageName": "com.vivakids.tutor",
+    "packageFolder": "com/vivakids/tutor",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.6.1",
+    "jwtSecretKey": "ZTA3NDcyYmM0ZTljOTlkY2Q3OWQ2N2UwZTI4Mjk2YzdjZTM3MjQzM2I1OGZkOTZiNDE5Yzc0MDdlNmUwZWRjN2EyMmYyNTIyNjhkMTVlNWU5MjJmM2EzYTllODY5Yjg0MjA1MjYwYTVlM2IwM2I0OTRmMmZlOWFhNGEwZDc1MTI="
+  },
+  "git-provider": "GitHub",
+  "git-company": "yeochinyi",
+  "repository-name": "vivatutor"
+}
